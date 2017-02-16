@@ -1,0 +1,18 @@
+body{
+  margin: 0 auto;
+  background-image: url(../images/orangTest1080.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 1080px;
+}
+
+#signUp{
+  position: relative;
+  float: right;
+  width: 250px;
+  height: 300px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  border-radius: 5px;
+}
