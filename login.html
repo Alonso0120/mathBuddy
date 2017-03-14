@@ -3,6 +3,8 @@
   <head>
     <title>Math Buddy</title>
     <link rel="stylesheet" type="text/css" href="style/loginStyle.css" />
+    <meta name="google-signin-client_id" content="421659322661-a31lqfrda1anveteqohvh2rc2iea7gpq.apps.googleusercontent.com.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
   </head>
 
   <body>
@@ -17,6 +19,7 @@
         <input type="submit" value="Log In" name="submitlogin" id="loginButton"/>
       </form>
       <div>
+        <div class="g-signin2" data-onsuccess="onSignIn"></div>
         <a href="signUp.html" id="noAcc">No Account</a>
         <a href="forgot.html" id="forgot">Forgot?</a>
       </div>

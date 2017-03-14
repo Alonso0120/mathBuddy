@@ -7,12 +7,13 @@ body{
 
 #signUp{
   position: relative;
-  float: right;
   width: 250px;
   height: 300px;
   padding: 10px;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 5px;
 }

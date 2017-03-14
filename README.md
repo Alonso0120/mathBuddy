@@ -1,2 +1,2 @@
 # mathBuddy
-for fun
+For Fun
